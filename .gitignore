@@ -1,3 +1,4 @@
 data-dir
 config.ini
 output.log
+scripts/data/nodeos.pid
