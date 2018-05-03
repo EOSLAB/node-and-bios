@@ -1,5 +1,7 @@
 #!/bin/bash
 
-nohup nodeos --config-dir ~/nodes/private --data-dir ~/nodes/private/data-dir  &> ~/nodes/private/output.log &
-echo $! > ~/nodes/private/scripts/data/nodeos.pid
+NODE_DIR="$HOME/nodes/private"
+
+nohup nodeos --config-dir $NODE_DIR --data-dir $NODE_DIR/data-dir  &> $NODE_DIR/output.log &
+echo $! > $NODE_DIR/scripts/data/nodeos.pid
 echo "Process started on $!"

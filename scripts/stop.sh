@@ -1,6 +1,8 @@
 #!/bin/bash
 
-pid=`cat ~/nodes/private/scripts/data/nodeos.pid`
+NODE_DIR=$HOME/nodes/private
+
+pid=`cat $NODE_DIR/scripts/data/nodeos.pid`
 kill $pid
-rm ~/nodes/private/scripts/data/nodeos.pid
+rm $NODE_DIR/scripts/data/nodeos.pid
 echo "Killed process $pid"
