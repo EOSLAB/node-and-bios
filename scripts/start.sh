@@ -1,6 +1,7 @@
 #!/bin/bash
 
-NODE_DIR="$HOME/nodes/private"
+# vars
+. settings.sh
 
 RESYNC=$1
 

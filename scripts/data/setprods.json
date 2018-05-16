@@ -1,9 +1,0 @@
-{
-    "version": "12348",
-    "producers": [
-      {
-        "producer_name": "eosocal",
-        "block_signing_key": "EOS6Db7xTEMMAXTqSSmBDnhD3XX924zqK9yGLVfZKjrDAarrY48f1"
-      }
-    ]
-  }

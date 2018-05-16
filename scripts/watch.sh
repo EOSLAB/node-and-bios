@@ -1,5 +1,6 @@
 #!/bin/bash
 
-NODE_DIR="$HOME/nodes/private"
+# vars
+. settings.sh
 
 tail -f $NODE_DIR/output.log
