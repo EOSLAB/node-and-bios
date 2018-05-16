@@ -1,4 +1,4 @@
-# Node and Bios
+# Node and Simple BIOS
 
 This is a quick way to launch a node and local testnet. 
 
